@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang Cuu Chuong</title>
+</head>
+<body>
+<script>
+
+
+let paint, i ,j;
+paint = "<table border='1''>";
+    for (i = 1; i <= 9; i++) {
+        paint += "<tr>";
+        for ( j = 2; j <= 9; j++) {
+            paint += "<td>" + j + 'x' + i + '=' + i*j + "</td>";
+        }
+        paint += "</tr>";
+    }
+    paint += "</table>";
+    document.write(paint);
+</script>
+</body>
+</html>
